@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <ImageView
+            android:id="@+id/imvFood"
+            android:scaleType="fitCenter"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+        <RelativeLayout
+            android:background="#7b000000"
+            android:padding="10dp"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+
+            <TextView
+                android:id="@+id/tectFood"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:layout_width="wrap_content"
+                android:text="food"
+                android:textSize="20sp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tetPrice"
+                android:layout_alignParentRight="true"
+                android:textColor="#ffffff"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:text="50"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textDetail"
+                android:maxLines="2"
+                android:textColor="#ffffff"
+                android:layout_alignParentBottom="true"
+                android:textStyle="bold"
+                android:text="food detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>
