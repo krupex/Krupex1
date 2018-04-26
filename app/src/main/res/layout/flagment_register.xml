@@ -33,6 +33,7 @@
             android:src="@drawable/ic_action_name" />
         <!--texfild-->
         <EditText
+            android:id="@+id/edtName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="name"
@@ -52,6 +53,7 @@
             android:src="@drawable/ic_action_user" />
         <!--texfild-->
         <EditText
+            android:id="@+id/edtUser"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="User :"
@@ -78,6 +80,7 @@
             android:src="@drawable/ic_action_password" />
         <!--texfild-->
         <EditText
+            android:id="@+id/edtPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="password"
